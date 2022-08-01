@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    border: none;
+}
+/*
+body::-webkit-scrollbar{
+    width: 10px;
+    background-color: transparent;
+}
+body::-webkit-scrollbar-thumb{
+    width: 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .7);
+}
+body::-webkit-scrollbar-corner{
+    background-color: transparent;
+}*/
+.container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.text-1{
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: white;
+    height: 100%;
+    background-color: pink;
+}
+.text-2{
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: white;
+    height: 100%;
+    background-color: lightblue;
+}
+.text-3{
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: white;
+    height: 100%;
+    background-color: darkslateblue;
+}
+.text-4{
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: white;
+    height: 100%;
+    background-color: purple;
+}
+.text-5{
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: white;
+    height: 100%;
+    background-color: green;
+}
+.text-6{
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: white;
+    height: 100%;
+    background-color: blue;
+}
+.left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 35%;
+    height: 100%;
+    transition: transform 300ms ease-in-out;
+}
+.right{
+    position: absolute;
+    top: 0;
+    left: 35%;
+    width: 65%;
+    height: 100%;
+    transition: transform 300ms ease-in-out;
+}
+.right div{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.image-1{
+    background-image: url(1.jpg);
+}
+.image-2{
+    background-image: url(2.jpg);
+}
+.image-3{
+    background-image: url(3.jpg);
+}
+.image-4{
+    background-image: url(4.jpg);
+}
+.image-5{
+    background-image: url(5.jpg);
+}
+.image-6{
+    background-image: url(mustafa.jpg);
+}
+
+.slide-buttons button{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    z-index: 300;
+    cursor: pointer;
+}
+.down{
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    transform: translateX(-100%);
+}
+.up{
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    transform: translateY(-100%);
+}
+button{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    font-size: 24px;
+}
